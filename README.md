@@ -4,6 +4,9 @@
 O mysql-all-for-one é um projeto onde eu coloco em prática os meus conhecimentos de mysql adquiridos no curso da trybe. <br>
 Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind em arquivos sql onde cada arquivo é um desafio do projeto. <br>
 
+## tecnologias e ferramentas usadas
+* mysql
+
 <details>
   <summary><strong>:whale: Rodando no Docker vs Localmente</strong></summary><br />
 
