@@ -7,7 +7,7 @@ Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind 
 ## tecnologias e ferramentas usadas
 * mysql
 * docker
-<br>
+---
 
 <details>
   <summary><strong>:whale: Rodando no Docker vs Localmente</strong></summary><br />
