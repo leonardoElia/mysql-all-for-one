@@ -1,7 +1,7 @@
 # Seja bem-vindo(a) ao meu projeto mysql-all-for-one
 
 ## sobre o projeto
-o mysql-all-for-one é um projeto onde eu coloco em prática os meus conhecimentos de mysql adquiridos no curso da trybe. <br>
+O mysql-all-for-one é um projeto onde eu coloco em prática os meus conhecimentos de mysql adquiridos no curso da trybe. <br>
 Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind em arquivos sql onde cada arquivo é um desafio do projeto. <br>
 
 <details>
