@@ -2,7 +2,7 @@
 
 ## sobre o projeto
 o mysql-all-for-one é um projeto onde eu coloco em prática os meus conhecimentos de mysql adquiridos no curso da trybe. <br>
-Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind em arquivos sql onde cada arquivo é um desafio do projeto.
+Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind em arquivos sql onde cada arquivo é um desafio do projeto. <br>
 
 <details>
   <summary><strong>:whale: Rodando no Docker vs Localmente</strong></summary><br />
@@ -25,13 +25,6 @@ Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind 
   - **:warning: Atenção:** Caso opte por utilizar o Docker, **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima.
 
   - **:warning: Atenção:** O **git** dentro do container não vem configurado com suas credenciais. Ou faça os commits fora do container, ou configure as suas credenciais do git dentro do container.
-
-  - **:warning: Atenção:** Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
-
-  - ✨ **Dica:** A extensão `Remote - Containers` (que estará na seção de extensões recomendadas do VS Code) é indicada para que você possa desenvolver sua aplicação no container Docker direto no VS Code, como você faz com seus arquivos locais.
-
-  ![remote-containers](./images/remote-container.png)
-
   <br />
 
   ## Sem Docker
