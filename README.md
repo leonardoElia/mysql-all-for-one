@@ -20,21 +20,14 @@ Nesse projeto eu desenvolvo querys de manipulação no bando de dados northwind 
   - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
   - As credencias de acesso ao banco de dados estão definidas no arquivo `docker-compose.yml`, e são acessíveis no container através das variáveis de ambiente `MYSQL_USER` e `MYSQL_PASSWORD`. 💡
 
-  > :information_source: Instale as dependências [**Caso existam**] com `npm install`. (Instale dentro do container)
-
-  - **:warning: Atenção:** Caso opte por utilizar o Docker, **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima.
+  > :information_source: Instale as dependências com `npm install`. (Instale dentro do container)
 
   - **:warning: Atenção:** O **git** dentro do container não vem configurado com suas credenciais. Ou faça os commits fora do container, ou configure as suas credenciais do git dentro do container.
   <br />
 
   ## Sem Docker
 
-  > :information_source: Instale as dependências [**Caso existam**] com `npm install`
-
-  - **:warning: Atenção:** Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
-
-  - **✨ Dica:** Para rodar o projeto desta forma, obrigatoriamente você deve ter o `node` instalado em seu computador.
-  - **✨ Dica:** O avaliador espera que a versão do `node` utilizada seja a 16.
+  > :information_source: Instale as dependências com `npm install`
 
   <br/>
 </details>
